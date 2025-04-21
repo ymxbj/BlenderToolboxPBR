@@ -18,6 +18,5 @@ for x in range(width):
         b = metallic.getpixel((x, y))  
         new_image.putpixel((x, y), (255, g, b)) 
 
-# 保存合成的RGB图像
 save_path = os.path.join(mesh_path, "mesh_mr.png")
 new_image.save(save_path)

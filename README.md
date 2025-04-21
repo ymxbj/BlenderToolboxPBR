@@ -3,10 +3,7 @@ This repo is the PBR version of [BlenderToolbox](https://github.com/HTDerekLiu/B
 ```
 conda create -n blender python=3.10
 conda activate blender
-pip3 install blendertoolbox
-pip3 install bpy
-pip3 install pyav
-pip3 install Pillow
+pip3 install blendertoolbox bpy pyav Pillow numpy trimesh
 ```
 Please make sure you're using python 3.10, as Blender Python `bpy` is only compiled for that version of python.
 
