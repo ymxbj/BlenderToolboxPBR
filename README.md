@@ -13,7 +13,7 @@ Please make sure you're using python 3.10, as Blender Python `bpy` is only compi
 ## Pipeline
 Given a 3D object with PBR materials, our goal is to perform PBR rendering via bpy. Specifically, a 3D object with PBR materials contains three types of maps: albedo map, roughness map, and metallic map. In most cases, the roughness map and metallic map are represented as a single RGB image with three channels, where the green channel represents roughness value and the blue channel represents metallic value. In this code repository, we assume that the roughness and metallic maps are stored in this way by default. If these two maps are stored separately, you can use merge to `merge_pbr.py` to merge them into a single PBR map.
 
-We provide a test case `0a572`
+We provide a 3D telescope as test case.
 
 ```
 python3 merge_pbr.py
