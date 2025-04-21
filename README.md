@@ -43,10 +43,10 @@ To render a video, use the python script `demo_pbr_video.py` and replace the `me
 python3 demo_pbr.py
 ```
 
-This command will produce 360 images under `your_mesh_dir/pbr_images`. Then, you can use the python script `images-to-video.py` and replace the `mesh_dir` with your own path to merge these images to a single video.
+This command will produce 360 images under `your_mesh_dir/pbr_images`. Then, you can use the python script `images_to_video.py` and replace the `mesh_dir` with your own path to merge these images to a single video.
 
 ```
-python3 images-to-video.py
+python3 images_to_video.py
 ```
 
 This command will produce a video named `pbr_video.mp4` under your `mesh_dir`.
