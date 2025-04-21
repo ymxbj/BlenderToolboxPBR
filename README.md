@@ -1,12 +1,12 @@
 # Rendering 3D Object with PBR Material
-This repo is the PBR version of [BlenderToolbox](https://github.com/HTDerekLiu/BlenderToolbox). To use this toolbox, install the toolbox with the following commands
+This repo is the PBR version of [BlenderToolbox](https://github.com/HTDerekLiu/BlenderToolbox). To use this toolbox, install the following packages.
 ```
 conda create -n blender python=3.10
 conda activate blender
 pip3 install blendertoolbox
 pip3 install bpy
 pip3 install pyav
-pip3 install pillow
+pip3 install Pillow
 ```
 Please make sure you're using python 3.10, as Blender Python `bpy` is only compiled for that version of python.
 
@@ -51,9 +51,7 @@ python3 collect_video.py
 
 This command will produce a video named `pbr_video.mp4` under your `mesh_dir`.
 
-<video id="video" controls="" preload="none">
-<source id="mp4" src="./telescope/pbr_video.mp4" type="video/mp4">
-</video>
+<p align="center"><img src="./telescope/pbr_video.webp" width="100%"></p>
 
 ## Contact
 
