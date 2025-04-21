@@ -5,7 +5,7 @@ from blenderInit import blenderInit
 from setMat_pbr import setMat_pbr
 cwd = os.getcwd()
 
-gpu_id = 2
+gpu_id = 0
 os.environ["CUDA_VISIBLE_DEVICES"] = f"{gpu_id}"
 
 bpy.context.scene.render.engine = 'CYCLES'
