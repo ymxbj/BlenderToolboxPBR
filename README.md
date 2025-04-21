@@ -8,7 +8,7 @@ pip3 install blendertoolbox bpy pyav Pillow numpy trimesh
 Please make sure you're using python 3.10, as Blender Python `bpy` is only compiled for that version of python.
 
 ## Pipeline
-Given a 3D object with PBR materials, our goal is to perform PBR rendering via bpy. Specifically, a 3D object with PBR materials contains three types of maps: albedo map, roughness map, and metallic map. In most cases, the roughness map and metallic map are represented as a single RGB image with three channels, where the green channel represents roughness value and the blue channel represents metallic value. In this code repository, we assume that the roughness and metallic maps are stored in this way by default. If these two maps are stored separately, you can use merge to `merge_pbr.py` to merge them into a single PBR map.
+Given a 3D object with PBR materials, our goal is to perform PBR rendering via bpy. Specifically, a 3D object with PBR materials contains three types of maps: albedo map, roughness map, and metallic map. In most cases, the roughness map and metallic map are represented as a single RGB image with three channels, where the green channel represents roughness value and the blue channel represents metallic value. In this code repository, we assume that the roughness and metallic maps are stored in this way by default. If these two maps are stored separately, you can use the python script `merge_pbr.py` to merge them into a single PBR map.
 
 We provide a 3D telescope as test case.
 
