@@ -1,4 +1,4 @@
-# Rendering 3D Object with PBR Material
+# Rendering 3D Objects with PBR Materials
 This repo is the PBR version of [BlenderToolbox](https://github.com/HTDerekLiu/BlenderToolbox). To use this toolbox, install the following packages.
 ```
 conda create -n blender python=3.10
