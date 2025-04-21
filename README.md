@@ -16,9 +16,9 @@ We provide a 3D telescope as test case.
 python3 merge_pbr.py
 ```
 
-After finishing this merge process, we can render the 3D object using its obj file, albedo map and PBR map under a certain environmental map. And we recommend visiting https://polyhaven.com/ to search for the environmental map you need.
+After finishing this merge process, you can render the 3D object using its obj file, albedo map and PBR map under a certain environmental map. And we recommend visiting https://polyhaven.com/ to search for the environmental map you need.
 
-Before rendering, we first need to scale the 3D object to a unit sphere.
+Before rendering, you first need to scale the 3D object to a unit sphere.
 
 ```
 python3 scale_to_unit_sphere.py
